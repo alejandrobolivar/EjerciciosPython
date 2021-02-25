@@ -7,8 +7,8 @@ radio = float(input("Radio de la base [cm]: "))
 altura = float(input("Altura del cilindro [cm]: "))
 
 # Procesamiento
-area = 3.141516*radio*radio
-volumen= (2*3.141516*radio)*altura
+area = 3.141516 * radio * radio
+volumen= (2 * 3.141516 * radio) * altura
 
 # Salida de datos
 print ("Area del Cilindro= %.2f" % area,"[cm²]")
