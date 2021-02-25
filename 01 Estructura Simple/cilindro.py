@@ -1,4 +1,7 @@
-# Determinar si el valor leido es par o impar
+# Propósito: Determinar el área y el volumen de un cilindro
+# Autor:     Alejandro Bolívar
+# Fecha:     25/02/2021
+
 # Entrada del dato
 radio = float(input("Radio de la base [cm]: "))
 altura = float(input("Altura del cilindro [cm]: "))
@@ -7,8 +10,9 @@ altura = float(input("Altura del cilindro [cm]: "))
 area = 3.141516*radio*radio
 volumen= (2*3.141516*radio)*altura
 
-#salida de datos
+# Salida de datos
 print ("Area del Cilindro= %.2f" % area,"[cm²]")
 print ("Volumen del Cilindro= %.2f" % volumen,"[cm³]")
 
+# Fin del programa
 input("Pulse una tecla para finalizar...") #'Pausa
