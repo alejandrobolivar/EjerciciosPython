@@ -17,6 +17,7 @@ print("Volumen de la caja= %.2f" % ves, "[cm³]")
 ves = 4 / 3 *  pi * r ** 3  # volumen de la esfera
 vv = vcc - ves  # volumen del vacío
 
+# Salida de los resultados
 print("Volumen de la esfera= %.2f" % ves, "[cm³]")
 print(" el volumen vacio es= %.2f" % vv, "[cm³]")
 

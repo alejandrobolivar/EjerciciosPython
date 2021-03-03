@@ -1,3 +1,7 @@
+# Propósito: Determinar el área y el perimetro de un circulo
+# Autor:     Alejandro Bolívar
+# Fecha:     25/02/2021
+
 from math import pi
 	
 #Pedimos el radio del circulo

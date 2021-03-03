@@ -9,6 +9,8 @@ nota_3 = int(input("Tercer valor: "))
 
 #Calculamos el promedio y lo mostramos en pantalla. Nota el decimal en el 4.0, de esa forma la division entregara numeros decimales.
 promedio = (nota_1 + nota_2 + nota_3) / 3.0
+
+# Salida de los resultados
 print ("El promedio es: " + str(promedio))
 
 # Fin del programa

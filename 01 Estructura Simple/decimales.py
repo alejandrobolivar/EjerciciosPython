@@ -9,7 +9,8 @@ num = float(input("Ingrese un numero: "))
 num_entero = int(num)
 num_decimal = abs(num) - abs(num_entero)
 
-print(num_decimal)
+# Salida de los resultados
+print("La parte decimal es= ", num_decimal)
 
 # Fin del programa
 input("Pulse una tecla para finalizar...") #'Pausa
