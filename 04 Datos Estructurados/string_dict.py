@@ -15,8 +15,10 @@ for line in cadena.splitlines():
     valores = line.split(" - ", 1)
 
     miDiccionario[valores[0].strip()] = valores[1].strip()
+import operator 
 
+valores_ord = dict(sorted(miDiccionario.items(), key=operator.itemgetter(1)))
 
-for k, v in miDiccionario.items():
+for k, v in valores_ord.items():
     
     print("Clave:", k, "Valor:", v)
