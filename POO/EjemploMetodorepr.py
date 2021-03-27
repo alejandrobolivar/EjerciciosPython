@@ -16,3 +16,4 @@ Color: {}""".format(self.raza, self.color)
 
 perrito = Cachorro("Marrón claro", "Golden retriever", 1)
 print(repr(perrito))
+print(perrito)
